@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Verifying adactin book hotel page by filling all fields and book",
+        "description": "",
+        "id": "verifying-the-adactin-book-hotel-details;verifying-adactin-book-hotel-page-by-filling-all-fields-and-book;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on the adactin page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User should login \"ElavarasanJacob\",\"7397AR\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User should verify after login \"Hello ElavarasanJacob!\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User should select all fields and search \"Paris\",\"Hotel Creek\",\"Deluxe\",\"1 - One\",\"22/10/2022\",\"23/10/2022\",\"2 - Two\"and\"0 - None\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User should verify after search \"Select Hotel\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should select hotel",
+            "match": {
+              "location": "AdactinHotelBookingStep.user_should_Select_Hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User should verify after select hotel in book a hotel page \"Book A Hotel\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User should fill all fields \"Elavarasan\",\"s\"and\"Chennai  601206\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "CreditCardNo",
+                  "CreditCardType",
+                  "ExpiryMonth",
+                  "Expiry Year",
+                  "CVVNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890123456",
+                  "American Express",
+                  "10",
+                  "2022",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890122134",
+                  "VISA",
+                  "11",
+                  "2022",
+                  "324"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890123455",
+                  "Master Card",
+                  "12",
+                  "2022",
+                  "456"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890123477",
+                  "Other",
+                  "09",
+                  "2022",
+                  "677"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User should verify after booking on booking confirmation page \"Booking Confirmation\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the Adactin Book Hotel Details",
+    "description": "",
+    "id": "verifying-the-adactin-book-hotel-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Adactin_Login_page.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,32 @@
+{
+	"name": "Ela",
+	"email": "ela.s.arasan@gmail.com",
+	"phoneNo": 54234456576,
+	"idno": 1441,
+	"details": [
+		{
+			"firstName": "ela",
+			"lastName": "s",
+			"rowNo": 232444
+		},
+		{
+			"firstName": "ela",
+			"lastName": "s",
+			"rowNo": 232444
+		},
+		{
+			"firstName": "ela",
+			"lastName": "s",
+			"rowNo": 232444
+		},
+		{
+			"firstName": "ela",
+			"lastName": "s",
+			"rowNo": 232444
+		}
+	],
+	"address": {
+		"location": "chennai",
+		"cmpnyName": "BHARAT"
+	}
+}
